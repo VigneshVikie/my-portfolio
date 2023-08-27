@@ -4,6 +4,7 @@ import SkillIcons from "../components/SkillIcons";
 import { SkillsList } from "../helper/SkillsList.js";
 import graphskills from "../assets/graph_skills.png"
 import computer from "../assets/computer.png"
+import resume from "../assets/Resume/VigneshResume.pdf"
 
 export const MySkills = () => {
   return (
@@ -33,7 +34,7 @@ export const MySkills = () => {
             <button className="resume-btn">
               <a
                 className="button"
-                href="../assets/Resume/VigneshResume.pdf"
+                href={resume}
                 download
               >
                 Download Resume
