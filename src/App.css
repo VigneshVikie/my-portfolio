@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap");
 body {
   font-family: "poppins", sans-serif;
+  background-color: #fff;
 }
 .main {
   width: 90%;
