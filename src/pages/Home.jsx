@@ -7,6 +7,7 @@ import Project from "./Project";
 import Contact from "./Contact";
 import characterimg from "../assets/home-character.jpg"
 import Footer from "./Footer";
+import resume from "../assets/Resume/VigneshResume.pdf"
 
 const Home = () => {
   const el = React.useRef(null);
@@ -37,7 +38,7 @@ const Home = () => {
             <button className="resume-btn">
               <a
                 className="button"
-                href="../assets/Resume/VigneshResume.pdf"
+                href={resume}
                 download
               >
                 Download Resume
