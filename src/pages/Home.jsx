@@ -27,10 +27,10 @@ const Home = () => {
     };
   }, []);
   return (
-    <>
+    <div className="hero">
       <div className="main">
         <div className="text">
-          Hello, World! I'm <br />
+          <span className="hello-txt">Hello, World! I'm</span> <br />
           <span ref={el} />
           <br />
           <span className="sub-text">Front End Dev</span>
@@ -140,7 +140,7 @@ const Home = () => {
       <Project/>
       <Contact/>
       <Footer/>
-    </>
+    </div>
   );
 };
 

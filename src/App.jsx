@@ -8,6 +8,7 @@ import Navbar from "../src/components/Navbar";
 import { MySkills } from "../src/pages/MySkills";
 import ErrorPage from "../src/pages/ErrorPage";
 import Footer from "./pages/Footer";
+import MobileNavBar from "./components/MobileNavBar";
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/footer" element={<Footer  />} />
+            <Route path="/mobilenavbar" element={<MobileNavBar  />} />
           </Route>
           <Route path="*" element={<ErrorPage />} />
-
         </Routes>
       </BrowserRouter>
     </>

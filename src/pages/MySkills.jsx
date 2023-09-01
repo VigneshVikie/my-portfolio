@@ -18,7 +18,7 @@ export const MySkills = () => {
           <p>
             Proficient in React.js development with experience in legacy
             migration, strong frontend technologies (JavaScript, HTML, CSS), and
-            data integration using SSIS.{" "}
+            data integration using SSIS.
           </p>
           <div className="skills-list">
             <div className="list">
