@@ -31,7 +31,7 @@ const Home = () => {
       <div className="main">
         <div className="text">
           <span className="hello-txt">Hello, World! I'm</span> <br />
-          <span ref={el} />
+          <span className="typing-txt" ref={el} />
           <br />
           <span className="sub-text">Front End Dev</span>
           <div className="resume">

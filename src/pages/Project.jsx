@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { CiShare1 } from "react-icons/ci";
 import moviemario from "../assets/movie-mario.jpg"
