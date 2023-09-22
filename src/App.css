@@ -810,7 +810,7 @@ body {
   .cube2 {
     width: 20px;
     height: 20px;
-    margin: -130px 0 0 300px;
+    margin: -130px 0 0 340px;
   }
   .cube3 {
     width: 30px;
@@ -824,7 +824,6 @@ body {
 
     .graph {
       width: 100%;
-      /* margin-top: 10px; */
     }
     .skills-content {
       width: 100%;
@@ -832,7 +831,7 @@ body {
       display: flex;
       align-items: center;
       .list > h2 {
-        /* font-size: 12px; */
+        font-size: 12px;
       }
     }
     .resume-skills {
