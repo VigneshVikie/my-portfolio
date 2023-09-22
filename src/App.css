@@ -745,11 +745,16 @@ body {
     font-size: 12px;
   }
 }
-@media (max-width: 768px) {
 
-  .main{
+@media (max-width:568px) {
+  body{
     background-color: blueviolet;
   }
+  
+}
+@media (max-width: 768px) {
+
+  
 }
 @media screen and (min-width: 992px) {
   .burger {
