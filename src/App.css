@@ -565,11 +565,10 @@ body {
   transform: rotate(-405deg);
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
   .nav {
     width: 100%;
     height: 50px;
-    background-color: #fff;
   }
   .nav-link {
     font-size: 32px;
@@ -736,7 +735,7 @@ body {
     .contact-icons{
       display: flex;
       flex-direction: column;
-      width: 80%;
+      width: 90%;
     .contact-info{
       padding: 10px;
     }
@@ -746,7 +745,11 @@ body {
     font-size: 12px;
   }
 }
-@media screen and (min-width: 768px) {
+@media (max-width: 768px) {
+
+  .main{
+    background-color: blueviolet;
+  }
 }
 @media screen and (min-width: 992px) {
   .burger {
