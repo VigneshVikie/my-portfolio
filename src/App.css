@@ -928,8 +928,6 @@ body {
   .navbar > ul {
     display: none;
   }
-}
-@media screen and (min-width: 992px) {
   .nav-bar-visible > li {
     font-size: 22px;
     list-style: none;
@@ -948,10 +946,13 @@ body {
     justify-content: space-evenly;
     align-items: center;
   }
-
   .navbar {
     justify-content: space-between;
   }
+}
+@media screen and (min-width: 992px) {
+ 
+  
 
   .main {
     width: 90vw;
