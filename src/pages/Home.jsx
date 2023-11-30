@@ -30,7 +30,7 @@ const Home = () => {
     <div className="hero">
       <div className="main">
         <div className="text">
-          <span className="hello-txt">Hello, World! I'm</span> <br />
+          <span className="hello-txt">Hello!!! I'm</span> <br />
           <span className="typing-txt" ref={el} />
           <br />
           <span className="sub-text">Front End Dev</span>

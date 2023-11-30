@@ -27,7 +27,7 @@ export const MySkills = () => {
             </div>
             <div className="list">
               <h2>Data Integration (SSIS)</h2>
-              <p style={{ fontWeight: "bold" }}>85%</p>
+              <p style={{ fontWeight: "bold" }}>75%</p>
             </div>
           </div>
           <div className="resume-skills">
